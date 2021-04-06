@@ -36,6 +36,8 @@
   },
   "dependencies": {},
   "scripts": {
-    "generate": "ts-node ./src/scripts/generateJson.ts"
+    "generate": "ts-node src/scripts/generateJson.ts",
+    "echo:py": "python packages/python/src/index.py",
+    "echo:node": "ts-node packages/node/src/index.ts"
   }
 }
