@@ -1,1 +1,1 @@
-# generic-core
+# Generic Pipeline Core
