@@ -3,6 +3,11 @@
   "name": "generic-pipeline-core",
   "version": "0.0.0",
   "description": "",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -29,6 +34,7 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^3.1.0",
+    "lerna": "^4.0.0",
     "lint-staged": "^9.4.3",
     "prettier": "^2.2.1",
     "ts-node": "^9.1.1",
@@ -37,7 +43,6 @@
   "dependencies": {},
   "scripts": {
     "generate": "ts-node src/scripts/generateJson.ts",
-    "echo:py": "python packages/python/src/index.py",
-    "echo:node": "ts-node packages/node/src/index.ts"
+    "build": "lerna run build"
   }
 }

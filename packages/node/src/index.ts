@@ -14,8 +14,5 @@
  * limitations under the License.
  */
 
-import config from "../../../dist/config.json";
-import nodes from "../../../dist/nodes.json";
-
-console.log(config);
-console.log(nodes);
+export { default as config } from "../../../dist/config.json";
+export { default as nodes } from "../../../dist/nodes.json";
