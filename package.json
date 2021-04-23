@@ -21,7 +21,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.13.8",
-    "@elyra/pipeline-services": "https://pkg.csb.dev/elyra-ai/pipeline-editor/commit/34be04c1/@elyra/pipeline-services",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
     "babel-eslint": "^10.0.0",
