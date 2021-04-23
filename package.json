@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "generic-core",
+  "name": "generic-pipeline-core",
   "version": "0.0.0",
   "description": "",
   "husky": {
