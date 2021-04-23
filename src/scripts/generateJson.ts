@@ -17,6 +17,8 @@
 import fs from "fs";
 import path from "path";
 
+import { createNode } from "@elyra/pipeline-services";
+
 import { config } from "../config";
 import { nodes } from "../nodes";
 
@@ -42,7 +44,7 @@ function generateNodesJson() {
       encoding: "utf-8",
     });
     const iconString = `data:image/svg+xml;utf8,${encodeURIComponent(icon)}`;
-    finalizedNodes.push({ ...node, icon: iconString });
+    finalizedNodes.push(createNode({ ...node, icon: iconString } as any));
   }
   fs.writeFileSync(
     path.join(DIST_FOLDER, "nodes.json"),

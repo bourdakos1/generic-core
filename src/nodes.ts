@@ -16,24 +16,13 @@
 
 import { NodeProperty, NodeSchema } from "./models";
 
-const runtimes = [
-  "continuumio/anaconda3:2020.07",
-  "amancevice/pandas:1.1.1",
-  "pytorch/pytorch:1.4-cuda10.1-cudnn7-devel",
-  "pytorch/pytorch:1.4-cuda10.1-cudnn7-runtime",
-  "tensorflow/tensorflow:2.3.0-gpu",
-  "tensorflow/tensorflow:2.3.0",
-  "elyra/tensorflow:1.15.2-gpu-py3",
-  "elyra/tensorflow:1.15.2-py3",
-];
-
 const properties: NodeProperty[] = [
   {
     id: "runtime_image",
     title: "Runtime Image",
     description: "Container image used as execution environment",
     type: "string",
-    enum: runtimes,
+    enum: [],
   },
   {
     id: "cpu",
