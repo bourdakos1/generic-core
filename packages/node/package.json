@@ -1,7 +1,7 @@
 {
   "name": "generic-pipeline-core",
   "version": "0.0.0",
-  "main": "./dist/packages/node/src/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "microbundle -f cjs"
   },
