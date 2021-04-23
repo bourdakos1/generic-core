@@ -48,6 +48,6 @@
     "prebuild": "yarn generate",
     "build": "lerna run build",
     "prerelease": "yarn build",
-    "release": "lerna publish"
+    "release": "lerna publish --force-publish"
   }
 }
