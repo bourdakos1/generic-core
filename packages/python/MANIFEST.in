@@ -1,1 +1,1 @@
-recursive-include ../../dist *.json
+include generic_pipeline_core/dist/*.json
