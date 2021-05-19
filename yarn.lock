@@ -1025,9 +1025,9 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@elyra/pipeline-services@https://pkg.csb.dev/elyra-ai/pipeline-editor/commit/34be04c1/@elyra/pipeline-services":
-  version "0.2.0-dev"
-  resolved "https://pkg.csb.dev/elyra-ai/pipeline-editor/commit/34be04c1/@elyra/pipeline-services#58a30024e99923be2f71db047584256f626d387e"
+"@elyra/pipeline-services@https://pkg.csb.dev/elyra-ai/pipeline-editor/commit/bc6fc520/@elyra/pipeline-services":
+  version "0.3.0-dev"
+  resolved "https://pkg.csb.dev/elyra-ai/pipeline-editor/commit/bc6fc520/@elyra/pipeline-services#70d0e9f7dacee51d5efd86898555f92e7e679be3"
   dependencies:
     immer "^8.0.1"
     jsonc-parser "^3.0.0"

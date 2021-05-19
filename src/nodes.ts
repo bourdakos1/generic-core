@@ -111,4 +111,13 @@ export const nodes: NodeSchema[] = [
     language: "python",
     properties: properties,
   },
+  {
+    op: "execute-r-node",
+    label: "R Script",
+    description: "R file",
+    type: "file",
+    extensions: [".r"],
+    language: "r",
+    properties: properties,
+  },
 ];
