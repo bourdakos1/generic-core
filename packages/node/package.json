@@ -1,6 +1,6 @@
 {
   "name": "generic-pipeline-core",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "dist/index.js",
   "types": "dist/packages/node/src/index.d.ts",
   "scripts": {
